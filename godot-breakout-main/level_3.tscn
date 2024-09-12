@@ -1,0 +1,120 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyugikt236bja"]
+
+[ext_resource type="PackedScene" uid="uid://cislktws6ar6d" path="res://brick.tscn" id="3_8056y"]
+
+[node name="Level1" type="Node"]
+
+[node name="Brick" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(185, 68)
+rotation = -0.802965
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick2" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(305, 68)
+rotation = 0.740395
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick3" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(425, 68)
+rotation = -0.672113
+scale = Vector2(1.00569, 1.07053)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick4" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(545, 68)
+rotation = 0.59582
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick5" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(665, 68)
+rotation = -0.703795
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick6" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(785, 68)
+rotation = 0.678814
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick7" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(905, 68)
+rotation = -0.763741
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick8" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(1036, 54)
+rotation = 0.493334
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick17" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(184, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick18" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(304, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick19" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(424, 129)
+scale = Vector2(1.00569, 1.07053)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick20" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(544, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick21" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(664, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick22" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(784, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick23" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(904, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick24" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(1024, 129)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick9" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(195, 218)
+rotation = 0.58455
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick10" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(315, 218)
+rotation = -0.823566
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick11" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(435, 218)
+rotation = 0.806722
+scale = Vector2(1.00569, 1.07053)
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick12" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(555, 218)
+rotation = -0.767678
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick13" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(675, 218)
+rotation = 0.776851
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick14" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(795, 218)
+rotation = -0.740967
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick15" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(915, 218)
+rotation = 0.809305
+color = Color(0.744921, 0.520112, 0.116102, 1)
+
+[node name="Brick16" parent="." groups=["Brick"] instance=ExtResource("3_8056y")]
+position = Vector2(1035, 218)
+rotation = -0.750696
+color = Color(0.744921, 0.520112, 0.116102, 1)

@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://cxsv6xnne0ii2"]
+[gd_scene load_steps=8 format=3 uid="uid://cxsv6xnne0ii2"]
 
 [ext_resource type="PackedScene" uid="uid://bpee7ikyb48qu" path="res://paddle.tscn" id="1_irae6"]
 [ext_resource type="Script" path="res://game.gd" id="1_qkpga"]
 [ext_resource type="PackedScene" uid="uid://ulmrusj8om00" path="res://level_2.tscn" id="3_70mdq"]
 [ext_resource type="PackedScene" uid="uid://ccdds8m3vpgew" path="res://ball.tscn" id="3_swh6n"]
+[ext_resource type="PackedScene" uid="uid://dyugikt236bja" path="res://level_3.tscn" id="4_ngc7y"]
 [ext_resource type="PackedScene" uid="uid://bypff1ewnf8it" path="res://level_1.tscn" id="4_u0ecj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oe7gl"]
@@ -11,7 +12,7 @@ size = Vector2(20, 64.759)
 
 [node name="Game" type="Node"]
 script = ExtResource("1_qkpga")
-levels = Array[PackedScene]([ExtResource("4_u0ecj"), ExtResource("3_70mdq")])
+levels = Array[PackedScene]([ExtResource("4_u0ecj"), ExtResource("3_70mdq"), ExtResource("4_ngc7y")])
 
 [node name="Paddle" parent="." instance=ExtResource("1_irae6")]
 position = Vector2(574, 589)
