@@ -16,8 +16,7 @@ func _on_start_pressed() -> void:
 
 
 func _on_options_pressed() -> void:
-	var options = load("res://scenes/menus/options_menu.tscn").instance() #fix this, no longer a proper function call
-	get_tree().current_scene.add_child(options)
+	get_tree().change_scene("res://scenes/menus/options_menu.tscn")
 
 
 func _on_quit_pressed() -> void:
